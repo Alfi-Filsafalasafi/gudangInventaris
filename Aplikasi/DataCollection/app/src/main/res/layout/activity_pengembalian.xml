@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bgg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pengembalian.Pengembalian">
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Pinjam"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtIDPinjam"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        android:inputType="none"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtJumlah"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"
+        android:inputType="number"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtTanggal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:hint="" />
+
+
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
+        android:text="Tambahkan"/>
+
+
+</RelativeLayout>

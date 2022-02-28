@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bgg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Laporan">
+
+    <ImageView
+        android:id="@+id/data"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/dt"/>
+
+    <TextView
+        android:id="@+id/txt_data"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="70dp"
+        android:text="Data Barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:text="Laporan semua data barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/rwyt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/his"/>
+
+    <TextView
+        android:id="@+id/txt_rwyt"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="170dp"
+        android:text="Riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:text="Laporan peminjaman dan pengembalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/toolman"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/tool"/>
+
+    <TextView
+        android:id="@+id/txt_toolman"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="290dp"
+        android:text="Daftar Toolman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="320dp"
+        android:text="Daftar semua toolman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

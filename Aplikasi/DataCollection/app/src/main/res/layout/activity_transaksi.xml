@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bgg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transaksi">
+
+    <ImageView
+        android:id="@+id/pnjm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/pin"/>
+
+    <TextView
+        android:id="@+id/txt_pnjm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        android:text="Peminjaman"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="90dp"
+        android:text="Pendataan peminjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/kmbli"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/peng"/>
+
+    <TextView
+        android:id="@+id/txt_kmbli"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="160dp"
+        android:text="Pengembalian"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="190dp"
+        android:text="Pendataan pengembalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/tmbh"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/pen"/>
+
+    <TextView
+        android:id="@+id/txt_tmbh"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="270dp"
+        android:text="Penambahan"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        android:text="Penambahan barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/pengeluaran"
+        android:paddingLeft="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/kel"/>
+
+    <TextView
+        android:id="@+id/txt_pengeluaran"
+        android:textSize="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="370dp"
+        android:text="Pengeluaran"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        android:text="Pengeluaran barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/tmbhtoolman"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/man" />
+
+    <TextView
+        android:id="@+id/txt_tmbhtoolman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="470dp"
+        android:text="Tambah Toolman"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textColor="#999999"
+        android:textStyle="italic"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp"
+        android:text="Penambahan toolman baru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

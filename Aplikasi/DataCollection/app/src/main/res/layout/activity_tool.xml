@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgg"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toolman.tool">
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtId"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:id="@+id/EdtNama"
+        android:layout_height="35dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtPassword"
+        android:inputType="textPassword"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtJK"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtTanggal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="310dp"
+        android:hint="" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan"/>
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:id="@+id/EdtJurusan"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="370dp"
+        android:hint="" />
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:id="@+id/BtnTambahTool"
+        android:layout_marginLeft="150dp"
+        android:text="Tambahkan"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datacollection">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Barang.TambahBarang"></activity>
+        <activity android:name=".databarang" />
+        <activity android:name=".toolman.tool" />
+        <activity android:name=".toolman.Tambaht" />
+        <activity android:name=".toolman.Toolman" />
+        <activity android:name=".Barang.Tambahanb" />
+        <activity android:name=".Riwayat" />
+        <activity android:name=".peminjaman.Peminjaman" />
+        <activity android:name=".Pengeluaran" />
+        <activity android:name=".pengembalian.Pengembalian" />
+        <activity android:name=".Barang.Daftarb" />
+        <activity android:name=".Transaksi" />
+        <activity android:name=".Laporan" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
